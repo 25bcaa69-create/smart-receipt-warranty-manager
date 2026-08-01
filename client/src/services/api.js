@@ -1,7 +1,7 @@
 /**
  * API Service Wrapper for backend REST API communication
  */
-const BASE_URL = '/api';
+const BASE_URL = 'https://smart-receipt-warranty-manager.onrender.com/api';
 
 const getHeaders = (isFormData = false) => {
   const token = localStorage.getItem('smart_receipt_token');
